@@ -1,0 +1,322 @@
+body {
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+  box-sizing: border-box;
+}
+
+.Toastify__toast .Toastify__toast-body div {
+  font-family: "Mulish", sans-serif;
+  font-size: 15px !important;
+  z-index: 999999;
+}
+
+:root {
+  --primary: #097E52;
+  --light: #d2ebd3;
+  --dark: #192335;
+}
+
+
+/* react Phone input */
+.react-tel-input input {
+  width: 100% !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  border-top-width: 0px !important;
+  border-left-width: 0px !important;
+  border-right-width: 0px !important;
+  border-radius: 0px !important;
+  font-family: "Mulish", sans-serif !important;
+}
+
+.react-tel-input {
+  position: relative;
+
+}
+
+.react-tel-input~span {
+  font-size: 0.75rem;
+  color: #d32f2f;
+  margin-top: 4px;
+  margin-right: 14px;
+  margin-bottom: 0;
+  margin-left: 14px;
+  line-height: 1.66;
+  font-weight: 500;
+}
+
+.react-tel-input input:focus {
+  border-color: #000 !important;
+  border-width: 1px;
+  box-shadow: none !important;
+}
+
+.react-tel-input .form-control {
+  font-size: 14px !important;
+  padding: 9px 14px 9px 58px !important;
+  border-radius: 5px !important;
+}
+
+.profile-pho-inp.react-tel-input input {
+  border-color: rgba(0, 0, 0, 0.23) !important;
+  border-top-width: 1px !important;
+  border-left-width: 1px !important;
+  border-right-width: 1px !important;
+  border-bottom-width: 1px !important;
+  outline: none !important;
+  color: currentColor;
+}
+
+/* React Phone input end */
+
+/* Scroll bar */
+
+.fc-scroller::-webkit-scrollbar,
+.scroll-bar::-webkit-scrollbar,
+.scroll-bar-dark::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+
+}
+
+.scroll-bar-dark::-webkit-scrollbar-track {
+  background-color: #000;
+}
+
+.fc-scroller::-webkit-scrollbar-track,
+.scroll-bar::-webkit-scrollbar-track {
+  background-color: #f3f3f3;
+}
+
+.fc-scroller::-webkit-scrollbar-thumb,
+.scroll-bar::-webkit-scrollbar-thumb,
+.scroll-bar-dark::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+
+}
+
+.fc-scroller::-webkit-scrollbar-thumb,
+.scroll-bar::-webkit-scrollbar-thumb {
+  background-color: #a2a2a2;
+  border: 2px solid #f3f3f3;
+}
+
+.scroll-bar-dark::-webkit-scrollbar-thumb {
+  background-color: #616161;
+  border: 2px solid #000;
+}
+
+.scroll-bar-dark::-webkit-scrollbar-button {
+  background-color: #000;
+}
+
+.fc-scroller::-webkit-scrollbar-button,
+.scroll-bar::-webkit-scrollbar-button {
+  background-color: #f3f3f3;
+}
+
+.fc-scroller::-webkit-scrollbar-button:increment,
+.scroll-bar::-webkit-scrollbar-button:increment,
+.scroll-bar-dark::-webkit-scrollbar-button:increment,
+.fc-scroller::-webkit-scrollbar-button:decrement,
+.scroll-bar::-webkit-scrollbar-button:decrement,
+.scroll-bar-dark::-webkit-scrollbar-button:decrement {
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 12px;
+}
+
+.fc-scroller::-webkit-scrollbar-button:increment,
+.scroll-bar::-webkit-scrollbar-button:increment {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='rgb(162, 162, 162)'><polygon points='20,30 80,30 50,75'/></svg>");
+}
+
+.fc-scroller::-webkit-scrollbar-button:decrement,
+.scroll-bar::-webkit-scrollbar-button:decrement {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='rgb(162, 162, 162)'><polygon points='20,75 80,75 50,30'/></svg>");
+}
+
+.scroll-bar-dark::-webkit-scrollbar-button:decrement {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='rgb(97, 97, 97)'><polygon points='20,75 80,75 50,30'/></svg>");
+}
+
+.scroll-bar-dark::-webkit-scrollbar-button:increment {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='rgb(97, 97, 97)'><polygon points='20,30 80,30 50,75'/></svg>");
+}
+
+.fc-scroller::-webkit-scrollbar-button:horizontal:decrement,
+.scroll-bar::-webkit-scrollbar-button:horizontal:decrement {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='rgb(162, 162, 162)'><polygon points='25,50 75,10 75,80'/></svg>");
+}
+
+.fc-scroller::-webkit-scrollbar-button:horizontal:increment,
+.scroll-bar::-webkit-scrollbar-button:horizontal:increment {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='rgb(162, 162, 162)'><polygon points='20,10 80,50  20,80'/></svg>");
+}
+
+.scroll-bar-dark::-webkit-scrollbar-button:horizontal:decrement {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='rgbrgb(97, 97, 97)'><polygon points='25,50 75,10 75,80'/></svg>");
+}
+
+.scroll-bar-dark::-webkit-scrollbar-button:horizontal:increment {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='rgb(97, 97, 97)'><polygon points='20,10 80,50  20,80'/></svg>");
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+.rmdp-shadow,
+.rmdp-ep-shadow::after {
+  box-shadow: 0 0 1px #979797 !important;
+}
+
+.rmdp-container * {
+  font-family: "Mulish", sans-serif;
+  box-sizing: border-box !important;
+}
+
+.rmdp-container {
+  display: block !important;
+  box-sizing: border-box !important;
+}
+
+.rmdp-day.rmdp-today span {
+  background-color: var(--light) !important;
+  color: var(--primary) !important;
+}
+
+.rmdp-day.rmdp-range span,
+.rmdp-day.rmdp-range {
+  background-color: var(--light) !important;
+  color: var(--primary) !important;
+}
+
+.rmdp-panel-body li,
+.rmdp-panel-body li .b-deselect {
+  background-color: var(--light) !important;
+}
+
+.rmdp-panel-body li button,
+.rmdp-panel-body li .b-deselect {
+  color: var(--primary) !important;
+  font-family: "Mulish", sans-serif !important;
+}
+
+.rmdp-panel-body li button.b-date {
+  font-size: 12px !important;
+}
+
+/* .rmdp-day.rmdp-today.rmdp-range span {
+  background-color: transparent !important;
+  color: inherit !important;
+} */
+
+.rmdp-day span {
+  transition: .15s;
+  font-size: 12px !important;
+  font-weight: 500;
+  user-select: none;
+  /* color: #222; */
+}
+
+.rmdp-day.rmdp-selected span:not(.highlight) {
+  background-color: var(--primary) !important;
+  color: #fff !important;
+  box-shadow: none !important;
+}
+
+.rmdp-week-day {
+  color: var(--primary) !important;
+  user-select: none;
+}
+
+.rmdp-arrow-container:hover {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.rmdp-arrow-container .rmdp-arrow {
+  border-color: var(--primary) !important;
+}
+
+.rmdp-header-values,
+.rmdp-panel-header {
+  font-weight: 500;
+  color: inherit !important;
+  user-select: none;
+}
+
+.rmdp-time-picker div input,
+.rmdp-am {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+
+.rmdp-ym .rmdp-day span {
+  font-size: 10px;
+  font-weight: 500;
+  user-select: none;
+}
+
+.rmdp-range {
+  box-shadow: none !important;
+  border-radius: 50%;
+}
+
+.rmdp-day {
+  color: inherit !important;
+  user-select: none;
+}
+
+.rmdp-arrow-container:hover .rmdp-arrow {
+  border-color: var(--primary) !important;
+}
+
+.rmdp-day:not(.rmdp-disabled, .rmdp-day-hidden) span:hover {
+  background-color: var(--primary) !important;
+  color: #fff !important;
+}
+
+.rmdp-input {
+  height: 38px !important;
+  width: 100%;
+  padding-left: 14px !important;
+  padding-right: 25px !important;
+  border-color: #dfdfdf !important;
+  margin: 0px !important;
+  color: currentColor !important;
+}
+
+.rmdp-input~svg {
+  right: 8px !important;
+  color: #93939396 !important;
+}
+
+.rmdp-input:focus {
+  border-color: var(--primary) !important;
+  box-shadow: none !important;
+}
+
+.rmdp-input:focus {
+  box-shadow: none;
+}
+
+.rmdp-time-picker input {
+  width: 25px
+}
+
+.rmdp-ep-arrow~div,
+.rmdp-ep-arrow {
+  z-index: 1301 !important;
+}
+
+.rmdp-time-picker input {
+  font-family: "Mulish", sans-serif;
+  pointer-events: none;
+}
+
+.dark-mode .rmdp-input::placeholder,
+.dark-mode .rmdp-input~svg {
+  color: #ffffffb3 !important;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
