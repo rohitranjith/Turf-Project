@@ -122,7 +122,7 @@ const Features = () => {
                                                 <Typography sx={{ color: 'text.secondarydefault', mt: 1, fontSize: 15 }}>{feature.description}</Typography>
                                             </Box>
                                             <Box sx={{ mt: 2, }}>
-                                                <Box component={'a'} sx={{ fontSize: 16, fontWeight: 600, color: "primary.main" }}>Learn More</Box>
+                                                <Button variant='outlined' sx={{ fontSize: 16, fontWeight: 600, color: "primary.main" }}>Learn More</Button>
                                             </Box>
                                         </Box>
                                     </Paper>

@@ -13,6 +13,7 @@ import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 import { useSelector } from 'react-redux';
+import DashboardOne from '../property/DashboardOne';
 
 const Dashboard = () => {
     const theme = useTheme();
@@ -477,6 +478,7 @@ const Dashboard = () => {
                         </Grid>
                     </Grid>
                 </Box>
+                {/* <DashboardOne /> */}
             </Box>
         </>
     )
