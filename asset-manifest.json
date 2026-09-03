@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Turf-Project/static/css/main.e3388d0b.css",
+    "main.js": "/Turf-Project/static/js/main.160d5f7c.js",
+    "static/media/game-14.jpg": "/Turf-Project/static/media/game-14.02e82901a52cbe67dfc3.jpg",
+    "static/media/login-3.jpg": "/Turf-Project/static/media/login-3.c31ed102a2338bde6b5b.jpg",
+    "static/media/game-13.jpg": "/Turf-Project/static/media/game-13.408323a2e08fb8d60e50.jpg",
+    "static/media/game-9.jpg": "/Turf-Project/static/media/game-9.33a31f38eafe326b115c.jpg",
+    "static/media/game-8.jpg": "/Turf-Project/static/media/game-8.a2b892f58b15ce95e385.jpg",
+    "static/media/game-12.jpg": "/Turf-Project/static/media/game-12.49d7281647cbd69f2c13.jpg",
+    "static/media/game-10.jpg": "/Turf-Project/static/media/game-10.7775669609ef2a410eb9.jpg",
+    "static/media/game-5.jpg": "/Turf-Project/static/media/game-5.24b363decfa95146422a.jpg",
+    "static/media/game-6.jpg": "/Turf-Project/static/media/game-6.ec7fb0881256bed201be.jpg",
+    "static/media/game-3.jpg": "/Turf-Project/static/media/game-3.2899b2dfd6c22d43d0af.jpg",
+    "static/media/delete-icon.gif": "/Turf-Project/static/media/delete-icon.58368027b9316a0927cc.gif",
+    "static/media/check-icon.gif": "/Turf-Project/static/media/check-icon.86b481f381431ff3aa0c.gif",
+    "static/media/warning-icon.gif": "/Turf-Project/static/media/warning-icon.af18c149a4f1bcc43b10.gif",
+    "static/media/user.jpg": "/Turf-Project/static/media/user.20b87ae04d72c56eff0a.jpg",
+    "static/media/chat.png": "/Turf-Project/static/media/chat.eabc7d4ee0389f73fbe0.png",
+    "static/media/under-constructions-1.svg": "/Turf-Project/static/media/under-constructions-1.81cbd9180259e6c5cfd76d5f57991767.svg",
+    "static/media/empty-box.png": "/Turf-Project/static/media/empty-box.3f7f08193708ecfad1db.png",
+    "static/media/game-logo.png": "/Turf-Project/static/media/game-logo.05430aec5e8fc58ed9ee.png",
+    "static/media/profile.png": "/Turf-Project/static/media/profile.3879afdcf40a35c581c3.png",
+    "static/media/logo-fav.png": "/Turf-Project/static/media/logo-fav.c36f37ab2a243b7901c7.png",
+    "static/media/invoice.png": "/Turf-Project/static/media/invoice.14c1453d1eae1a55c2f0.png",
+    "static/media/wallet.png": "/Turf-Project/static/media/wallet.3b800f8729025b3b794e.png",
+    "static/media/page-not-found.svg": "/Turf-Project/static/media/page-not-found.d10ad79f26b5dcc4d612a0f5766038e1.svg",
+    "index.html": "/Turf-Project/index.html",
+    "main.e3388d0b.css.map": "/Turf-Project/static/css/main.e3388d0b.css.map",
+    "main.160d5f7c.js.map": "/Turf-Project/static/js/main.160d5f7c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3388d0b.css",
+    "static/js/main.160d5f7c.js"
+  ]
+}
