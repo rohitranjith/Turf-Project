@@ -36,24 +36,28 @@ function App() {
 		createRoutesFromElements(
 			<>
 				<Route path="/accounts">
-					<Route path='login' element={<Login />} />
+					<Route path="login" element={<Login />} />
 				</Route>
+
 				<Route element={<HomeLayout />}>
 					<Route index path="/" element={<Home />} />
 					<Route path="/about-us" element={<About />} />
 					<Route path="/services" element={<Services />} />
 					<Route path="/event" element={<Event />} />
 					<Route path="/contact-us" element={<Contact />} />
+
 					<Route path="/support">
 						<Route path="faq" element={<Faq />} />
 						<Route path="privacy-policy" element={<PrivacyPolicy />} />
 						<Route path="terms-conditions" element={<TermsConditions />} />
 						<Route path="pricing" element={<Pricing />} />
 					</Route>
+
 					<Route path="/other">
 						<Route path="sports-venue" element={<SportsVenue />} />
 					</Route>
 				</Route>
+
 				<Route element={<MainLayout />}>
 					<Route path="/dashboard" element={<Dashboard />} />
 					<Route path="orders" element={<Listing />} />
@@ -63,11 +67,15 @@ function App() {
 					<Route path="/wallet" element={<Wallet />} />
 					<Route path="/profile" element={<Profile />} />
 				</Route>
+
 				<Route path="/forbidden" element={<ForbiddenError />} />
 				<Route path="*" element={<Notfound />} />
 			</>
-		)
-	)
+		),
+		{
+			basename: "/Turf-Project",
+		}
+	);
 
 	return (
 		<ThemeProvider theme={theme}>
