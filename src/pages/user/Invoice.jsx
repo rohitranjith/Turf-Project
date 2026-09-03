@@ -190,10 +190,10 @@ const Invoice = () => {
                         </Paper>
                 }
             </Box>
-            <Popup show={showPop} title={"Delete Editor"} consent={true} variant='error' primaryBtnTxt={"Delete"}
+            <Popup show={showPop} title={"Delete Invoice"} consent={true} variant='error' primaryBtnTxt={"Delete"}
                 onPrimaryClick={async (e, loader) => {
                     try {
-                        alertMsg('Editor Deleted successfully', 'success')
+                        alertMsg('Invoice Deleted successfully', 'success')
                         setShowPop(false)
                         setSelectedClient(null);
                     } catch (err) {
